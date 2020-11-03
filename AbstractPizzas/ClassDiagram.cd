@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractFactory">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanFactory" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>RomanFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NapolitanFactory" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>NapolitanFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlutenFreeFactory" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GlutenFreeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractPizza" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAgQAASAAGAAAAAQAAQQEECAEJAAABgAAQAAAQAA=</HashCode>
+      <FileName>AbstractPizza.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanPizza">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>RomanPizza.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NapolitanPizza">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NapolitanPizza.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlutenFreePizza">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlutenFreePizza.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaBase" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAQAAAAAAAQABAAAAQAAAAAQAA=</HashCode>
+      <FileName>PizzaBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaSaus" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>PizzaSaus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaTopping" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>PizzaToppings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreshTopping" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreshToppings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaTypes" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAEBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Margarita" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Funghi" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pepperoni" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Supreme" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrawnChilli" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prosciutto" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PizzaTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeganBase" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VeganBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NapolitanBase" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>NapolitanBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanBase" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAA=</HashCode>
+      <FileName>RomanBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OvenSettings" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAEAAAAAAEQAAAAAAABAQAAAAgAEAAAAAEACA=</HashCode>
+      <FileName>OvenSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ingredient" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ingredients.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
