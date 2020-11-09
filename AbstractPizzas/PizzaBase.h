@@ -24,8 +24,8 @@ public:
 		std::cout << "-------------------------------------" << std::endl;
 		std::cout << "The ingredients in the base are:" << std::endl;
 		int len = IngredientsList.size();
-		for (int n = 0; n < len; ++n) {
-			IngredientsList[n].PrintName();
+		for (int index = 0; index < len; ++index) {
+			IngredientsList[index].PrintName();
 		}
 		std::cout << "-------------------------------------" << std::endl;
 	}

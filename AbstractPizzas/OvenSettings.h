@@ -44,16 +44,4 @@ public:
 		std::cout << "Program = " << BakingProgram << std::endl;
 		std::cout << "-------------------------------------" << std::endl;
 	}
-
-	void TestOvenSettings(void) {
-
-	}
-
-private:
-
-	bool testSetProgram(void) {
-		int prg = -1;
-
-
-	}
 };

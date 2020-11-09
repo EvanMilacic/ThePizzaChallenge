@@ -11,6 +11,7 @@
 
 int main()
 {
+
 	AbstractFactory* Tim = new RomanFactory();
 	AbstractFactory* Dario = new NapolitanFactory();
 	AbstractFactory* Evan = new GlutenFreeFactory();
@@ -41,4 +42,8 @@ int main()
 	//And then an unknown persone walks by and orders a supreme to share
 	AbstractPizza* Pizza_for_Stranger = Evan->ToShare(Supreme());
 	Pizza_for_Stranger->MakePizza();
+
+	delete(Tim);
+	delete(Dario);
+	delete(Evan);
 }

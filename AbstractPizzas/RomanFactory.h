@@ -23,7 +23,7 @@ class RomanFactory :
     AbstractPizza* ToShare(PizzaTypes type) {
         AbstractPizza* pizza = new RomanPizza(type);
         pizza->SetName(type.name);
-        pizza->SetComment("It is cut in eight pieces, how nice of you to share.");
+        pizza->SetComment("It is cut in twelve pieces, how nice of you to share.");
         return pizza;
     };
 

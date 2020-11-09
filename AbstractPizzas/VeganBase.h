@@ -13,6 +13,4 @@ public:
 		IngredientsList[2] = ingredient("Chickpeas");
 	};
 	~VeganBase() {};
-
-
 };
